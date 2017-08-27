@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'APJCommonClasses_Example' do
+  pod 'APJCommonClasses', :path => '../'
+
+  target 'APJCommonClasses_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module Pods_APJCommonClasses_Tests {
+  umbrella header "Pods-APJCommonClasses_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
