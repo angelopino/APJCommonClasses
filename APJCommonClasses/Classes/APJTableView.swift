@@ -25,7 +25,7 @@ open class APJTableView: UITableView {
         _initialize()
     }
     
-    override init(frame: CGRect, style: UITableViewStyle) {
+    override public init(frame: CGRect, style: UITableViewStyle) {
         super.init(frame: frame, style: style)
         _initialize()
     }
