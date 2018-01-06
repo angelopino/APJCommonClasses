@@ -10,7 +10,7 @@ import UIKit
 
 public protocol APJTableViewDelegate: UITableViewDelegate, UITableViewDataSource { }
 
-public class APJTableView: UITableView {
+open class APJTableView: UITableView {
     
     public weak var wrapDelegate: APJTableViewDelegate? {
         didSet {
