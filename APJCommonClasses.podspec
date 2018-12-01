@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'APJCommonClasses'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'APJCommonClasses contains common classes for code reuse'
   s.description      = <<-DESC
 APJCommonClasses contains a group of common classes used almost always during the development of various projects.
@@ -13,4 +13,5 @@ APJCommonClasses contains a group of common classes used almost always during th
 
   s.ios.deployment_target = '11.0'
   s.source_files = 'APJCommonClasses/Classes/**/*'
+  s.swift_version = '4.2'
 end
