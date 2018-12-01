@@ -25,14 +25,14 @@ open class APJTableView: UITableView {
         _initialize()
     }
     
-    override public init(frame: CGRect, style: UITableViewStyle) {
+    override public init(frame: CGRect, style: UITableView.Style) {
         super.init(frame: frame, style: style)
         _initialize()
     }
     
     
     private func _initialize() {
-        rowHeight = UITableViewAutomaticDimension
+        rowHeight = UITableView.automaticDimension
         estimatedRowHeight = 300
         tableFooterView = UIView(frame: .zero)
         cellLayoutMarginsFollowReadableWidth = false

@@ -34,7 +34,7 @@
 		1AAC14F26CFCA1B4DDCA999E622EAC3D /* APJTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APJTableView.swift; path = APJCommonClasses/Classes/APJTableView.swift; sourceTree = "<group>"; };
 		2EF0A1840B6E413941FF1CFF018E2B68 /* Pods-APJCommonClasses_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APJCommonClasses_Tests-dummy.m"; sourceTree = "<group>"; };
 		3CB4F6B3C7EB54D6522F35770CA9C2B8 /* Pods-APJCommonClasses_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APJCommonClasses_Tests-resources.sh"; sourceTree = "<group>"; };
-		4441BB2DB6ADA21EB56B432F2DBCC5D3 /* Pods-APJCommonClasses_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-APJCommonClasses_Tests.modulemap"; sourceTree = "<group>"; };
+		4441BB2DB6ADA21EB56B432F2DBCC5D3 /* Pods-APJCommonClasses_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APJCommonClasses_Tests.modulemap"; sourceTree = "<group>"; };
 		47065CF01413868DDD82C999E410DFF3 /* Pods-APJCommonClasses_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-APJCommonClasses_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4DD1076E3332EFFA799FEE94FCE9A4B1 /* Pods-APJCommonClasses_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APJCommonClasses_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		514E206EC340AA4B87E4C28F71C26046 /* APJCommonClasses-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APJCommonClasses-prefix.pch"; sourceTree = "<group>"; };
@@ -47,19 +47,19 @@
 		6F58C81C8144C7387DF8CE66C948F661 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7120416C459F21FD94FDD88113A863AA /* Pods-APJCommonClasses_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APJCommonClasses_Example-resources.sh"; sourceTree = "<group>"; };
 		9329600145036AC05087926D95876DB9 /* Pods-APJCommonClasses_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APJCommonClasses_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9675C8032EEF4E8C4C17C7DEA453838C /* Pods-APJCommonClasses_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APJCommonClasses_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A3D3D39A121C6E8DBB4E52797993B28C /* Pods_APJCommonClasses_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APJCommonClasses_Example.framework; path = "Pods-APJCommonClasses_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3D3D39A121C6E8DBB4E52797993B28C /* Pods_APJCommonClasses_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APJCommonClasses_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7C344D98D4366AC9FFAED9A4E83E845 /* APJCommonClasses.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APJCommonClasses.xcconfig; sourceTree = "<group>"; };
-		AFCA23ED835F95ABADC4350D09C27985 /* Pods_APJCommonClasses_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_APJCommonClasses_Tests.framework; path = "Pods-APJCommonClasses_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFCA23ED835F95ABADC4350D09C27985 /* Pods_APJCommonClasses_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APJCommonClasses_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6315C773C6771165C1C0AAF40D16084 /* Pods-APJCommonClasses_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-APJCommonClasses_Example-dummy.m"; sourceTree = "<group>"; };
-		B9890B143F0A69B23B71924F0673ACA4 /* APJCommonClasses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APJCommonClasses.framework; path = APJCommonClasses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9890B143F0A69B23B71924F0673ACA4 /* APJCommonClasses.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APJCommonClasses.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68F02538CC82B2E9F3B58329E1AE44E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D804A2B6FD378AAC3303D5C410108514 /* Pods-APJCommonClasses_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APJCommonClasses_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DC7F154AE5E1E79551EECBA0E293E52C /* Pods-APJCommonClasses_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APJCommonClasses_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E247E953A1E5DEA2AEA1FE538E0A2FE0 /* Pods-APJCommonClasses_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-APJCommonClasses_Example.modulemap"; sourceTree = "<group>"; };
+		E247E953A1E5DEA2AEA1FE538E0A2FE0 /* Pods-APJCommonClasses_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-APJCommonClasses_Example.modulemap"; sourceTree = "<group>"; };
 		E6A50483CFB30434A74F6E10ACEA628D /* Pods-APJCommonClasses_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-APJCommonClasses_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E925E7810E43FCFFB08D02069C93D52F /* APJCommonClasses.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = APJCommonClasses.modulemap; sourceTree = "<group>"; };
+		E925E7810E43FCFFB08D02069C93D52F /* APJCommonClasses.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = APJCommonClasses.modulemap; sourceTree = "<group>"; };
 		FD165ECCB170397A4F938FF6483BAC30 /* Pods-APJCommonClasses_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APJCommonClasses_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		FF6DC920B192D44FFF0881FF1D8F7731 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -295,7 +295,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					10CF3F016D60D02062DB60B8927874A3 = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -382,7 +387,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -491,7 +496,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -547,23 +552,33 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -632,22 +647,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -661,6 +686,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
