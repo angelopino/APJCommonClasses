@@ -1,5 +1,5 @@
 PODS:
-  - APJCommonClasses (0.0.4)
+  - APJCommonClasses (0.0.7)
 
 DEPENDENCIES:
   - APJCommonClasses (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  APJCommonClasses: 82416b0349efa74a74983220061f8cf3b809cb9f
+  APJCommonClasses: 9991cb84c9fafce4a5662b77674f56f30d8d6019
 
 PODFILE CHECKSUM: a64f8085e8cc64dad6400727de25e726cb3ca702
 

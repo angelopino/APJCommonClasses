@@ -10,16 +10,19 @@ import UIKit
 
 enum ExampleType {
     case baseTableView
+    case baseAlert
     
     var title: String {
         switch self {
         case .baseTableView: return "TableView"
+        case .baseAlert: return "Alert"
         }
     }
     
     var segue: String {
         switch self {
-        case .baseTableView: return "TableViewSegue"
+        case .baseTableView: return "BaseTableViewViewController"
+        case .baseAlert: return "BaseAlertViewController"
         }
     }
 }

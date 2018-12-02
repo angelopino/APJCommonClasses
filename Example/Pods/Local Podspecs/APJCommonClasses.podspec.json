@@ -1,6 +1,6 @@
 {
   "name": "APJCommonClasses",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "summary": "APJCommonClasses contains common classes for code reuse",
   "description": "APJCommonClasses contains a group of common classes used almost always during the development of various projects.",
   "homepage": "https://github.com/angelopino/APJCommonClasses",
@@ -13,10 +13,11 @@
   },
   "source": {
     "git": "https://github.com/angelopino/APJCommonClasses.git",
-    "tag": "0.0.4"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "11.0"
   },
-  "source_files": "APJCommonClasses/Classes/**/*"
+  "source_files": "APJCommonClasses/Classes/**/*",
+  "swift_version": "4.2"
 }

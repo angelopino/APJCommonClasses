@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
-    var examples: [ExampleType] = [.baseTableView]
+    var examples: [ExampleType] = [.baseTableView, .baseAlert]
     var exampleTypeSelected: ExampleType!
     override func viewDidLoad() {
         super.viewDidLoad()
