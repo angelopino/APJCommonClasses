@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'APJCommonClasses'
-  s.version          = '0.0.7'
+  s.version          = '0.0.8'
   s.summary          = 'APJCommonClasses contains common classes for code reuse'
   s.description      = <<-DESC
 APJCommonClasses contains a group of common classes used almost always during the development of various projects.

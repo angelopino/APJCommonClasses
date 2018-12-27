@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		395EE86D21B35E5E007D6885 /* BaseAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EE86C21B35E5E007D6885 /* BaseAlertViewController.swift */; };
 		395EE86E21B35E5E007D6885 /* BaseAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395EE86C21B35E5E007D6885 /* BaseAlertViewController.swift */; };
+		3971309221D4570C00E9CE1C /* BaseNibViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971309121D4570C00E9CE1C /* BaseNibViewViewController.swift */; };
+		3971309521D4574400E9CE1C /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971309421D4574400E9CE1C /* CustomView.swift */; };
+		3971309721D4575000E9CE1C /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3971309621D4575000E9CE1C /* CustomView.xib */; };
 		399C0C341F4A4B450057B78E /* BaseTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C0C331F4A4B450057B78E /* BaseTableViewViewController.swift */; };
 		399C0C381F4A54ED0057B78E /* BaseExamplesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C0C371F4A54ED0057B78E /* BaseExamplesViewController.swift */; };
 		399C0C3C1F51ECF50057B78E /* ExampleType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399C0C3B1F51ECF50057B78E /* ExampleType.swift */; };
@@ -36,10 +39,13 @@
 		087C202AC9BDA5C931CB9F15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24F4D7271E225A925E71C7FC /* Pods-APJCommonClasses_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APJCommonClasses_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-APJCommonClasses_Example/Pods-APJCommonClasses_Example.release.xcconfig"; sourceTree = "<group>"; };
 		395EE86C21B35E5E007D6885 /* BaseAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAlertViewController.swift; sourceTree = "<group>"; };
+		3971309121D4570C00E9CE1C /* BaseNibViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNibViewViewController.swift; sourceTree = "<group>"; };
+		3971309421D4574400E9CE1C /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		3971309621D4575000E9CE1C /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		399C0C331F4A4B450057B78E /* BaseTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewViewController.swift; sourceTree = "<group>"; };
 		399C0C371F4A54ED0057B78E /* BaseExamplesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseExamplesViewController.swift; sourceTree = "<group>"; };
 		399C0C3B1F51ECF50057B78E /* ExampleType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleType.swift; sourceTree = "<group>"; };
-		489C4C73D1E15A1D569FA130 /* APJCommonClasses.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APJCommonClasses.podspec; path = ../APJCommonClasses.podspec; sourceTree = "<group>"; };
+		489C4C73D1E15A1D569FA130 /* APJCommonClasses.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = APJCommonClasses.podspec; path = ../APJCommonClasses.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		51EF72BD94CAE0642FCAD93A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* APJCommonClasses_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APJCommonClasses_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3971309321D4571800E9CE1C /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3971309421D4574400E9CE1C /* CustomView.swift */,
+				3971309621D4575000E9CE1C /* CustomView.xib */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -102,12 +117,14 @@
 		607FACD21AFB9204008FA782 /* Example for APJCommonClasses */ = {
 			isa = PBXGroup;
 			children = (
+				3971309321D4571800E9CE1C /* CustomView */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				399C0C3B1F51ECF50057B78E /* ExampleType.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				399C0C371F4A54ED0057B78E /* BaseExamplesViewController.swift */,
 				399C0C331F4A4B450057B78E /* BaseTableViewViewController.swift */,
 				395EE86C21B35E5E007D6885 /* BaseAlertViewController.swift */,
+				3971309121D4570C00E9CE1C /* BaseNibViewViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -259,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				3971309721D4575000E9CE1C /* CustomView.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -336,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				399C0C381F4A54ED0057B78E /* BaseExamplesViewController.swift in Sources */,
+				3971309521D4574400E9CE1C /* CustomView.swift in Sources */,
+				3971309221D4570C00E9CE1C /* BaseNibViewViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				399C0C3C1F51ECF50057B78E /* ExampleType.swift in Sources */,

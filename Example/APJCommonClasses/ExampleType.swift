@@ -11,11 +11,13 @@ import UIKit
 enum ExampleType {
     case baseTableView
     case baseAlert
+    case baseNibView
     
     var title: String {
         switch self {
         case .baseTableView: return "TableView"
         case .baseAlert: return "Alert"
+        case .baseNibView: return "Custom view from nib file"
         }
     }
     
@@ -23,6 +25,7 @@ enum ExampleType {
         switch self {
         case .baseTableView: return "BaseTableViewViewController"
         case .baseAlert: return "BaseAlertViewController"
+        case .baseNibView: return "BaseNibViewViewController"
         }
     }
 }

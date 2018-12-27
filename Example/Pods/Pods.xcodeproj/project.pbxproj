@@ -10,6 +10,7 @@
 		13980C94B5D93E15C25072F1A060E3D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		140C7DE0DB75B42EC6C0562BD5CB50AE /* APJAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54431EDD87532DAA61C59A7D3AD204 /* APJAlert.swift */; };
 		28000EA961B08EB9FAD24712F877FEB5 /* APJCommonClasses-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F360C57FDB78481A2019BC4A14C8E759 /* APJCommonClasses-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3971309021D455AD00E9CE1C /* APJNibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3971308F21D455AD00E9CE1C /* APJNibView.swift */; };
 		4B337F90BDD9F96683D8B7331974CD99 /* Pods-APJCommonClasses_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FFC1B3972A42A0D938C9B0955C5952 /* Pods-APJCommonClasses_Example-dummy.m */; };
 		734A0D944298B2320AE01257B831DDE9 /* Pods-APJCommonClasses_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AB3C20F5E7AC882580F45901250C2F /* Pods-APJCommonClasses_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8C0BCBDC848430083D5ED283BE60AEEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -44,6 +45,7 @@
 		29F22CEA03E730FC60901EFCB62BAB0F /* Pods-APJCommonClasses_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-APJCommonClasses_Tests.modulemap"; sourceTree = "<group>"; };
 		2E91695655661F2AA65366380CA2AC2B /* Pods-APJCommonClasses_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-APJCommonClasses_Example-resources.sh"; sourceTree = "<group>"; };
 		3520EFA13919B413AF3112F3C7CA16DA /* Pods-APJCommonClasses_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-APJCommonClasses_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3971308F21D455AD00E9CE1C /* APJNibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APJNibView.swift; sourceTree = "<group>"; };
 		4CACA28577DA66EEAE673713BF015B03 /* Pods-APJCommonClasses_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APJCommonClasses_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		567A8AF491B4B09AF81F7ACED1CD296E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5E7F6A3C6535AE0C7830AD96AF51259D /* Pods-APJCommonClasses_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-APJCommonClasses_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				7D54431EDD87532DAA61C59A7D3AD204 /* APJAlert.swift */,
 				BD46008F76FC068ACCCB5C3CF2A12845 /* APJTableView.swift */,
+				3971308F21D455AD00E9CE1C /* APJNibView.swift */,
 				FBD4D7E667D0528170F504067C9A3341 /* Pod */,
 				CB09302228A70B9E04AF3F02CDACF368 /* Support Files */,
 			);
@@ -364,6 +367,7 @@
 			files = (
 				140C7DE0DB75B42EC6C0562BD5CB50AE /* APJAlert.swift in Sources */,
 				CC64E5B77306F17819068C2241948615 /* APJCommonClasses-dummy.m in Sources */,
+				3971309021D455AD00E9CE1C /* APJNibView.swift in Sources */,
 				AF8E302FB58E1B53BABB53B93AF72D65 /* APJTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import UIKit
 
-open class APJAlert {
+public class APJAlert {
     
     public init() {}
     
