@@ -13,4 +13,5 @@ APJCommonClasses contains a group of common classes used almost always during th
 
   s.ios.deployment_target = '12.0'
   s.source_files = 'APJCommonClasses/Classes/**/*'
+  s.swift_versions = '5.0'
 end
